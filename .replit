@@ -1,2 +1,3 @@
 language = "python3"
-run = "message"
+run = "python formatif2/input_Luca.py"
+
