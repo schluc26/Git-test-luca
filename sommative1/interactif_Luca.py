@@ -10,5 +10,8 @@ no =  "bad"
 if y == "yes":
   print("great lets start")
 elif y == "no":
- print("ok bye")
+  print("ok bye ") 
+if y == "yes":
+ print("first question")
+
 
