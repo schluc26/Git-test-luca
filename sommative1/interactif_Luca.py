@@ -5,7 +5,7 @@ x = input()
 print("hello "+ x)
 
 
-print("do you want to play a game")
+print("do you want to play a game")#starting the program with conversation
 y = input()
 yes = "good"
 no =  "bad"
@@ -15,10 +15,10 @@ elif y == "no":
   print("ok bye ") 
 
 
-if y == "yes":
+if y == "yes":# the quiz will start now
  print("question 1 of 3")
 print("what is the penguins real name a)andrew stone b)jack white c)oswald coblepott")
-answer = input().lower()
+answer = input().lower()# it picks how one of the variables is right and how the others are wrong
 if answer == "a":
     print(" wrong")
 elif answer == "b":
@@ -27,7 +27,7 @@ elif answer == "c":
     print(" correct")
 
 
-if answer == "c":
+if answer == "c":# seconde question
   print("question 2 of 3")
 print("what is the best movie a) joker b) avengers endgame c) anything else")
 answer = input().lower()
@@ -39,7 +39,7 @@ elif answer == "c":
     print(" wrong!!")
 
 
-if answer == "a":
+if answer == "a":#third question
   print("question 3 of 3")
 print("when did batman arkham origins take place a) june 5 b) december 24 to 25 c) october 31")
 answer = input().lower()
@@ -51,5 +51,5 @@ elif answer == "c":
     print(" no no no")
 
 
-if answer == "b":
+if answer == "b":# end of quiz and programe
   print("you won, thanks for playing")
