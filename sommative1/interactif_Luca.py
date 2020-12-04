@@ -6,7 +6,7 @@ print("hello "+ x)
 
 
 print("do you want to play a game")#starting the program with conversation
-y = input()
+y = input()# input makes you write something from your keyboard
 yes = "good"
 no =  "bad"
 if y == "yes":
@@ -18,7 +18,7 @@ elif y == "no":
 if y == "yes":# the quiz will start now
  print("question 1 of 3")
 print("what is the penguins real name a)andrew stone b)jack white c)oswald coblepott")
-answer = input().lower()# it picks how one of the variables is right and how the others are wrong
+answer = input().lower()# it picks how one of the variables is right and how the others are wrong using lower case letters
 if answer == "a":
     print(" wrong")
 elif answer == "b":
