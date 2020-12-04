@@ -1,2 +1,2 @@
 language = "python3"
-run = "python formatif3/interactif_Luca.py"
+run = "python sommative1/interactif_Luca.py"
