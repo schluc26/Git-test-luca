@@ -3,11 +3,12 @@
 print("what is your name")
 x = input()
 print("hello "+ x)
-print("do you wanr to play a game")
+print("do you want to play a game")
 y = input()
 yes = "good"
-no = "bad"
-if yes:
+no =  "bad"
+if y == "yes":
   print("great lets start")
-elif no:
-  print("ok bye")
+elif y == "no":
+ print("ok bye")
+
