@@ -12,6 +12,14 @@ if y == "yes":
 elif y == "no":
   print("ok bye ") 
 if y == "yes":
- print("first question")
-
-
+ print("question 1 of 3")
+print("what is the penguins real name a)andrew stone b)jack white c)oswald coblepott")
+questionanswer = input().lower()
+if questionanswer == "a":
+    print(" wrong")
+elif questionanswer == "b":
+    print(" ha no")
+elif questionanswer == "c":
+    print(" correct")
+if questionanswer == "c":
+  print("question 2 of 3")
